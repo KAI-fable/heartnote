@@ -4,3 +4,10 @@ vite.config.*.timestamp-*
 core
 core.[0-9]*
 *.core
+
+# 本地环境变量与构建产物
+.env
+.env.*
+!.env.example
+dist
+.DS_Store
